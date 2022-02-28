@@ -1,0 +1,253 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sigmar+One&display=swap');
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.header ul li{
+	display: inline;
+	padding: 10px 20px;
+	font-size: 15px;
+	font-family: Open Sans;
+	font-weight: 500;
+	color:rgba(85,27,8,1.00);
+}
+ul li:hover{
+	font-size: 20px;
+	color: rgba(255,217,24,1.00);
+}
+.header img{
+	width: 8%;
+}
+.header{
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	height: 50px;
+	align-items: center;
+	padding: 15px;
+	z-index: 1;
+}
+.ND h1{
+	color:rgba(255,255,255,1.00);
+	text-shadow: 9px 5px 10px rgba(85,27,8,0.7);
+	font-family: Sigmar One;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 150px;
+}
+.ND hr{
+	margin: 0 auto;
+	padding: 2px;
+	background-color:rgba(85,27,8,1.00);
+	border: none;
+	width: 50%;
+}
+.nha{
+	text-align: center;
+	background-image: url("image/n-t1.png");
+	height: 100vh;
+	background-size: cover;
+}
+.nha input{
+	border-radius: 20px;
+	border: none;
+	background-color: rgba(254,214,215,1.00);
+	margin-top: 10px;
+	padding: 10px 50px;
+	color:  rgba(85,27,8,1.00);
+	font-size: 15px;
+	font-family: Open Sans;
+	font-weight: 500;
+}
+.nha input:hover{
+	background-color:rgba(255,253,52,1.00);
+	color: rgba(255,255,255,1.00);
+}
+.wzp{
+	width: 25%;
+	display: block;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.wzp:hover{
+	width: 30%;
+}
+.js img{
+	width: 30%;
+}
+.js img:hover{
+	width: 35%;
+}
+.js{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 190px 50px 0 50px;
+}
+.chu2{
+	width: 70%;
+	background-color:rgba(254,214,215,1.00);
+	text-align: center;
+	padding: 0 30px 70px 30px;
+}
+.js h1{
+	color:rgba(255,255,255,1.00);
+	font-family: Sigmar One;
+	font-size: 100px;
+}
+.js h4{
+	font-size: 20px;
+	font-family: Open Sans;
+	font-weight: 300;
+	color:rgba(85,27,8,1.00);
+}
+a{
+	font-family: Open Sans;
+	font-weight: 500;
+	font-size: 15px;
+	color:rgba(85,27,8,1.00);
+}
+a:hover {
+	font-size: 20px;
+	color: rgba(255,217,24,1.00);
+}
+.so1 img{
+	width: 35%;
+	padding-bottom: 10px;
+}
+.so1{
+	text-align: center;
+	padding-top: 90px;
+}
+.so1:hover{
+	width: 120%;
+}
+.nl{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.wjn h1{
+	font-family: Sigmar One;
+	font-size: 100px;
+	color:rgba(85,27,8,1.00);
+	text-align: center;
+	padding-top: 50px;
+}
+.wjn hr, .bzp hr{
+	margin: 0 auto;
+	padding: 2px;
+	background-color:rgba(85,27,8,1.00);
+	border: none;
+	width: 35%;
+}
+.bzp{
+	text-align: center;
+}
+.bzp h1{
+	font-family: Sigmar One;
+	font-size: 100px;
+	color:rgba(85,27,8,1.00);
+	text-align: center;
+	padding-top: 50px;
+}
+.zp{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0 30px 0;
+}
+.sc{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 250px 250px 250px;
+	grid-gap: 10px;
+	width: 80%;
+}
+.anh1{
+	grid-column: 1/3;
+}
+.hh img{
+	height: 100%;
+	width: 100%;
+	border-radius: 25px;
+}
+.hh:hover{
+	background-color: rgba(255,255,255,0.50);
+	height: 102%;
+	width: 102%;
+}
+.anh2{
+	grid-row: 1/3;
+	grid-column-start: 3;
+}
+.anh4{
+	grid-row: 2/4;
+}
+.anh7{
+	grid-column: 2/4;
+}
+.lx{
+	background-image: url("image/n-t5.jpg");
+	height: 100vh;
+	background-size: cover;
+	margin-top: 25px;
+}
+.ttll{
+	width: 60%;
+	text-align: center;
+	padding: 25px;
+}
+.dien{
+	border-radius: 5px;
+	width: 70%;
+	padding: 10px;
+	margin-top: 10px;
+}
+.bam{
+	border-radius: 20px;
+	border: none;
+	background-color:  rgba(85,27,8,1.00);
+	margin-top: 10px;
+	padding: 5px 20px;
+	color:rgba(255,255,255,1.00);
+	font-size: 15px;
+	font-family: Open Sans;
+	font-weight: 500;
+}
+.bam:hover{
+	background-color:rgba(255,253,52,1.00);
+	color: rgba(255,255,255,1.00);
+}
+textarea{
+	border-radius: 5px;
+	width: 70%;
+	padding: 10px;
+	margin-top: 10px;
+	height: 125px;
+}
+.ttll h3{
+	font-family: Sigmar One;
+	font-size: 35px;
+	color:rgba(85,27,8,1.00);
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 30px;
+}
+.ttcn{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	padding-top: 40px;
+}
+.ttcn ul li{
+	padding-top: 10px;
+	list-style-type: none;
+	font-size: 15px;
+	font-family: Open Sans;
+	font-weight: 500;
+	color:rgba(85,27,8,1.00);
+}
